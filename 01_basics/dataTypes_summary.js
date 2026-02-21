@@ -33,3 +33,27 @@ const myFunction = function(){
 }
 
 console.log(typeof id)
+
+
+
+//********//
+
+// STACK (PRIMITIVE), HEAP (NON-PRIMITIVE)
+
+let myYtname = "hetvi"
+let anothername = myYtname
+anothername = "rajvee"
+console.log(myYtname)
+console.log(anothername)
+
+let userOne = {
+        email:"hetvi@gmail.com",
+        upi:"user@okicic",
+}
+
+let userTwo = userOne
+
+userTwo.email = "hey@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
